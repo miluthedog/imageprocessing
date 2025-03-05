@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 class imageClustering:
     def __init__(self):
-        self.image = cv.imread('KmeanClustering\images\image1.png')
+        self.image = cv.imread('KmeanRmBG\images\image1.png')
         self.threshold_ratio = 0.05 # only variables
 
         self.output = False
