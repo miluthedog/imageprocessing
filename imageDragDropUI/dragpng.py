@@ -11,7 +11,7 @@ from PyQt6.QtCore import Qt, QPoint, QRect
 class DraggableImageWidget(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.image = QPixmap("imageDragDropUI/images/test.png") # setup image
+        self.image = QPixmap("imageDragDropUI/images/test2.png") # setup image
 
         self.image_pos = QPoint(50, 50)                         # (ini) store potision
         self.offset = QPoint()                                  # (ini) store offset
